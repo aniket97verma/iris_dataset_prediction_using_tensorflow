@@ -1,5 +1,21 @@
 # IRIS Flower prediction using Tensorflow
 In this code, I want you to show how you can use the **Tensorflow** to train **Iris Dataset**, a model that can categorize data.
+
+## Classification Algorithm
+
+As we know, the Supervised Machine Learning algorithm can be broadly classified into Regression and Classification Algorithms. In Regression algorithms, we predict the output for continuous values, but to predict the categorical values, we need Classification algorithms.
+
+The Classification algorithm is a Supervised Learning technique that is used to identify the category of new observations on the basis of training data. In Classification, a program learns from the given dataset or observations and then classifies new observation into a number of classes or groups. Such as, Yes or No, 0 or 1, Spam or Not Spam, cat or dog, etc. Classes can be called as targets/labels or categories.
+
+Unlike regression, the output variable of Classification is a category, not a value, such as "Green or Blue", "fruit or animal", etc. Since the Classification algorithm is a Supervised learning technique, hence it takes labeled input data, which means it contains input with the corresponding output.
+
+The algorithm which implements the classification on a dataset is known as a classifier. There are two types of Classifications:
+
+   1.  **Binary Classifier**: If the classification problem has only two possible outcomes, then it is called as Binary Classifier.
+       Examples: YES or NO, MALE or FEMALE, SPAM or NOT SPAM, CAT or DOG, etc.
+    2. **Multi-class Classifier**: If a classification problem has more than two outcomes, then it is called as Multi-class Classifier.
+       Example: Classifications of types of crops, Classification of types of music.
+
 ## IRIS Dataset
 This is probably the most versatile, easy and resourceful data set in pattern recognition literature. Nothing could be simpler than iris data set to learn classification techniques. If you are totally new to data science, this is your start line. The data has only 150 rows & 4 columns.
 The data set contains 50 records of 3 species of Iris:
