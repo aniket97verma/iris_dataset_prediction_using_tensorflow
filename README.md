@@ -12,9 +12,9 @@ Unlike regression, the output variable of Classification is a category, not a va
 The algorithm which implements the classification on a dataset is known as a classifier. There are two types of Classifications:
 
    1.  **Binary Classifier**: If the classification problem has only two possible outcomes, then it is called as Binary Classifier.
-       Examples: YES or NO, MALE or FEMALE, SPAM or NOT SPAM, CAT or DOG, etc.
-       
-    2. **Multi-class Classifier**: If a classification problem has more than two outcomes, then it is called as Multi-class Classifier.
+       Examples: YES or NO, MALE or FEMALE, SPAM or NOT SPAM, CAT or DOG, etc.       
+   
+   2.  **Multi-class Classifier**: If a classification problem has more than two outcomes, then it is called as Multi-class Classifier.
        Example: Classifications of types of crops, Classification of types of music.
 
 ## IRIS Dataset
